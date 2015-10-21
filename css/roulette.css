@@ -1,0 +1,44 @@
+/*
+ Roulette v1.0
+ (c) 2015 Petr -pehu- Humplik, http://pehu.info
+ License: MIT
+ */
+
+.roulette-container {
+    display: block;
+    position: relative;
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    z-index: 100;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+.roulette-container > a {
+    position: absolute;
+}
+
+.titleBox {
+    display: table;
+    border: solid #d59d51 1px;
+    background-color: beige;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.titleBox span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bgImage {
+    position: absolute;
+    opacity:0.5;
+    z-index: -1;
+}
