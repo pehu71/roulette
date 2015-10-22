@@ -20,6 +20,13 @@ img {
 
 .roulette-container > a {
     position: absolute;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.roulette-container > a:link, .roulette-container > a:visited {
+    text-decoration: none;
+    color:#663300;
 }
 
 .titleBox {
@@ -29,6 +36,7 @@ img {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+    padding: 6px;
 }
 
 .titleBox span {

@@ -1,0 +1,35 @@
+{
+  "name": "roulette",
+  "homepage": "https://github.com/pehu71/roulette",
+  "authors": [
+    "pehu71 <humplikpetr@gmail.com>"
+  ],
+  "description": "Roulette-like image carousel as AngularJS directive",
+  "main": "script/roulette.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "roulette",
+    "carousel",
+    "images",
+    "angular",
+    "directive",
+    "angular",
+    "carousel",
+    "angular",
+    "roulette"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "jquery": "~2.1.4"
+  }
+}

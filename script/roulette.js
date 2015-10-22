@@ -3,7 +3,7 @@
  (c) 2015 Petr -pehu- Humplik, http://pehu.info
  License: MIT
  */
-
+'use strict';
 var roulette = angular.module('roulette', []);
 
 roulette.directive('phRoulette', ['$interval', function ($interval) {
@@ -65,7 +65,7 @@ roulette.directive('phRoulette', ['$interval', function ($interval) {
             /* setting background image */
             var initBgImage = function () {
                 var bgImageElement = angular.element('<img id="' + bgImageId + '" class="bgImage"/>');
-                var ci = document.getElementById(bgImageId);
+
                 var left = scope.center.x - scope.config.bgImage.width / 2;
                 var top = scope.center.y - scope.config.bgImage.height / 2;
                 angular.element(bgImageElement).css({
