@@ -19,8 +19,8 @@ Include the bower components and roulette application components into your page:
 
 ````html
 <link rel="stylesheet" href="css/roulette.min.css" type="text/css">
-<script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
-<script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
+<script src="../jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="../angular/angular.min.js" type="text/javascript"></script>
 <script src="script/roulette.min.js" type="text/javascript"></script>
 ````
 
