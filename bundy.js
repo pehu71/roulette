@@ -5,8 +5,8 @@
 
 var bundy = require('bundy');
 
-bundy.js('script/roulette.js', 'script/roulette.min.js');
+bundy.js('roulette/script/roulette.js', 'roulette/script/roulette.min.js');
 
-bundy.css('css/roulette.css', 'css/roulette.min.css');
+bundy.css('roulette/css/roulette.css', 'roulette/css/roulette.min.css');
 
 bundy.build();
